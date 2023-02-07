@@ -4,28 +4,8 @@
     android:layout_height="match_parent"
     android:background="@color/back_color">
 
-    <view class="android.support.v7.app.AlertController$RecycleListView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/idRVChats"
-        android:layout_above="@+id/idRLMsg">
-    </view>
 
-    <RelativeLayout
-        android:id="@+id/idRLMsg"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="0dp">
 
-        <EditText
-            android:id="@+id/idEdtMessage"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="Enter message"
-            android:singleLine="true"
-            android:textColor="@color/white"
-            android:textColorHint="@color/white" />
-    </RelativeLayout>
+
 
 </RelativeLayout>
