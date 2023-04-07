@@ -126,36 +126,6 @@ public class chatBotAi extends AppCompatActivity {
             }
         });
 
-
-        
-      /*  Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl(baseUrl)
-                .addConverterFactory(GsonConverterFactory.create())
-                .build();
-        RetroFitAPI retroFitAPI = retrofit.create(RetroFitAPI.class);
-        Call<MessageModel> call = retroFitAPI.getMessage(url);
-        call.enqueue(new Callback<MessageModel>() {
-            @Override
-            public void onResponse(Call<MessageModel> call, Response<MessageModel> response) {
-                if(response.isSuccessful()){
-                    MessageModel model = response.body();
-                    logger.info(" Success Response model"+model);
-                    chatsModelArrayList.add(new ChatsModel(model.getCnt(),BOT_KEY));
-                    chatRVAdapter.notifyDataSetChanged();
-                }
-                else {
-                    logger.info(" failure in success Response model"+response.body());
-
-                }
-            }
-
-            @Override
-            public void onFailure(Call<MessageModel> call, Throwable t) {
-                logger.info(" Failure Response");
-                chatsModelArrayList.add(new ChatsModel("please revert your question",BOT_KEY));
-                chatRVAdapter.notifyDataSetChanged();
-            }
-        });*/
         logger.info("End Chats Model Array list::"+chatsModelArrayList);
 
     }
