@@ -7,7 +7,7 @@
     android:background="@color/back_color"
     tools:context=".chatBotAi">
 
-    <view class="android.support.v7.app.AlertController$RecycleListView"
+    <view class="android.support.v7.widget.RecyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/idRVChats"
@@ -37,7 +37,7 @@
             android:textColorHint="@color/white" />
 
 
-        <ImageButton
+        <android.support.design.widget.FloatingActionButton
             android:id="@+id/idFABSend"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -51,7 +51,7 @@
             android:src="@drawable/ic_send"
             android:text="@string/send"
             app:backgroundTint="@color/fab_color"
-            app:fabCustomSize="45dp"
+
             app:tint="@color/white" />
 
 
